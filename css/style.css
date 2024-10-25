@@ -1010,6 +1010,8 @@ p {
   background-color: #1C1C1C;
   padding: 20px;
   margin-top: 20px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .review_list_item_head {
   display: -webkit-box;
@@ -1035,6 +1037,11 @@ p {
 }
 .review_list_item_body {
   margin-top: 28px;
+}
+.review_list_item:hover {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-color: rgba(255, 127, 0, 0.3);
 }
 @media (min-width: 768px) {
   .review_list {
